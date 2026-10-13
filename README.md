@@ -1,0 +1,1 @@
+KOLCEM - Corrección de capas visuales. Se eleva la tabla izquierda por encima de los encabezados del Gantt para evitar que los meses/trimestres se superpongan sobre las columnas. No se alteraron datos ni funciones. Abrir index.html o publicar como sitio estático.
