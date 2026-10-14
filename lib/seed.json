@@ -1,0 +1,707 @@
+[
+ {
+  "id": 0,
+  "name": "Proyecto KOLCEM",
+  "level": 0,
+  "summary": true,
+  "milestone": false,
+  "start": "2026-08-05",
+  "end": "2026-11-27",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 1,
+  "name": "I. Contexto y anteproyecto",
+  "level": 1,
+  "summary": true,
+  "milestone": false,
+  "start": "2026-08-05",
+  "end": "2026-09-07",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 2,
+  "name": "Recopilar información de KOLCEM y sector",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-08-05",
+  "end": "2026-08-14",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 3,
+  "name": "Analizar mercado, demanda y competencia",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-08-15",
+  "end": "2026-08-24",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 2,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Diagnosticar brecha producción, ventas e inventarios",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-08-25",
+  "end": "2026-09-04",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 2,
+    "type": "FS"
+   },
+   {
+    "id": 3,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Entregar primer avance (anteproyecto)",
+  "level": 2,
+  "summary": false,
+  "milestone": true,
+  "start": "2026-09-07",
+  "end": "2026-09-07",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 4,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "II. Diagnóstico y validación",
+  "level": 1,
+  "summary": true,
+  "milestone": false,
+  "start": "2026-09-08",
+  "end": "2026-10-15",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 7,
+  "name": "Recopilar registros de despachos, almacén y suministro",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-09-08",
+  "end": "2026-09-18",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 5,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "Depurar y conciliar datos diarios de producción y despachos",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-09-12",
+  "end": "2026-09-25",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 7,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Diagnosticar capacidad productiva y restricciones operativas",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-09-19",
+  "end": "2026-10-02",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 7,
+    "type": "FS"
+   },
+   {
+    "id": 8,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "Analizar días sin producción y variabilidad de operaciones",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-09-26",
+  "end": "2026-10-05",
+  "progress": 0,
+  "status": "Entregado",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 8,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "name": "Validar causas y reglas de programación con KOLCEM",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-06",
+  "end": "2026-10-15",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 9,
+    "type": "FS"
+   },
+   {
+    "id": 10,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "name": "III. Modelo y segundo avance",
+  "level": 1,
+  "summary": true,
+  "milestone": false,
+  "start": "2026-10-03",
+  "end": "2026-10-21",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 13,
+  "name": "Evaluar respuesta a demanda y definir escenarios preliminares",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-03",
+  "end": "2026-10-16",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 9,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "name": "Describir flujo AS-IS: pedidos, producción y despacho",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-06",
+  "end": "2026-10-14",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 9,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "name": "Describir el simulador desarrollado en Python y los datos que utiliza",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-08",
+  "end": "2026-10-16",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 14,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "name": "Verificar lógica y contrastar salidas AS-IS con datos",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 8,
+    "type": "FS"
+   },
+   {
+    "id": 15,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "name": "Actualizar problema, árbol causal y justificación",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-10",
+  "end": "2026-10-17",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 10,
+    "type": "FS"
+   },
+   {
+    "id": 11,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "name": "Consolidar revisión de literatura y marco conceptual",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-04",
+  "end": "2026-10-17",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 5,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "name": "Integrar diseño conceptual y cronograma en informe 2",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-15",
+  "end": "2026-10-18",
+  "progress": 0,
+  "status": "En proceso",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 14,
+    "type": "FS"
+   },
+   {
+    "id": 15,
+    "type": "SS"
+   },
+   {
+    "id": 17,
+    "type": "SS"
+   },
+   {
+    "id": 18,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "name": "Entregar segundo avance",
+  "level": 2,
+  "summary": false,
+  "milestone": true,
+  "start": "2026-10-19",
+  "end": "2026-10-19",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 19,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "name": "Sustentar segundo avance",
+  "level": 2,
+  "summary": false,
+  "milestone": true,
+  "start": "2026-10-21",
+  "end": "2026-10-21",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 20,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "name": "IV. Alternativas y evaluación",
+  "level": 1,
+  "summary": true,
+  "milestone": false,
+  "start": "2026-10-17",
+  "end": "2026-11-10",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 23,
+  "name": "Diseñar escenarios de nivelación y programación de producción",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-17",
+  "end": "2026-10-25",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 11,
+    "type": "FS"
+   },
+   {
+    "id": 13,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "name": "Diseñar escenarios de despacho y almacenamiento",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-17",
+  "end": "2026-10-27",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 9,
+    "type": "FS"
+   },
+   {
+    "id": 13,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": "Completar calibración y validación del modelo AS-IS",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-19",
+  "end": "2026-10-29",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 16,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "name": "Ejecutar experimentos y réplicas TO-BE",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-10-30",
+  "end": "2026-11-05",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 23,
+    "type": "FS"
+   },
+   {
+    "id": 24,
+    "type": "FS"
+   },
+   {
+    "id": 25,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": "Comparar KPIs, cuellos de botella y sensibilidad",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-06",
+  "end": "2026-11-10",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 26,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "name": "V. Propuesta y cierre",
+  "level": 1,
+  "summary": true,
+  "milestone": false,
+  "start": "2026-11-11",
+  "end": "2026-11-27",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": []
+ },
+ {
+  "id": 29,
+  "name": "Evaluar viabilidad técnica, económica y riesgos",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-11",
+  "end": "2026-11-15",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 27,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "name": "Analizar alternativas de mejora en producción, almacenamiento y despacho",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-12",
+  "end": "2026-11-15",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 29,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "name": "Seleccionar propuesta y plan de implementación",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-16",
+  "end": "2026-11-17",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 29,
+    "type": "FS"
+   },
+   {
+    "id": 30,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "name": "Revisar propuesta con empresa y registrar observaciones",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-16",
+  "end": "2026-11-19",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 31,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Redactar y revisar informe final",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-16",
+  "end": "2026-11-20",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 27,
+    "type": "FS"
+   },
+   {
+    "id": 31,
+    "type": "SS"
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "name": "Preparar póster, presentación y ensayo",
+  "level": 2,
+  "summary": false,
+  "milestone": false,
+  "start": "2026-11-21",
+  "end": "2026-11-24",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 33,
+    "type": "FS"
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "name": "Presentar en Feria de Proyectos",
+  "level": 2,
+  "summary": false,
+  "milestone": true,
+  "start": "2026-11-27",
+  "end": "2026-11-27",
+  "progress": 0,
+  "status": "Pendiente",
+  "owner": "",
+  "notes": "",
+  "deps": [
+   {
+    "id": 34,
+    "type": "FS"
+   }
+  ]
+ }
+]
